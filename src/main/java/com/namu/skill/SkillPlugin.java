@@ -52,7 +52,7 @@ public final class SkillPlugin extends JavaPlugin implements CommandExecutor {
         Skill.z = Double.parseDouble(args[4]);
 
         if (skill == null) {
-            sender.sendMessage("없는 스킬");
+            sender.sendMessage("Unknown Skill!");
             return false;
         }
 
